@@ -1,0 +1,30 @@
+.footer {
+  height: 100px;
+  background: #653bb5;
+  position: relative;
+  color: white;
+  overflow: auto;
+}
+
+.footer > .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  background: #5138a1;
+  font-weight: 800;
+}
+
+div {
+  display: block;
+}
+
+/* .footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #b8b8b8;
+} */
