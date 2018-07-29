@@ -74,6 +74,7 @@ class App extends Component {
             <Character
               key={image.id}
               id={image.id}
+              result={this.state.result}
               image={image.image}
               incrementScore={this.incrementScore}
             />
